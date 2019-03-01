@@ -1,0 +1,137 @@
+/**
+ * Tyylitiedosto, jossa m‰‰ritelty v‰rit ja tyylit eri elementeille.
+ * 
+ */
+
+.root {
+	-fx-font-family: "Calibri";
+}
+
+.menuheader {
+	-fx-font-size: 100px;
+}
+
+.textbasic {
+	-fx-font-size: 25px;
+    -fx-padding: 10;
+    -fx-fill: #FFFFFF;
+    
+}
+
+
+.header {
+	-fx-font-size: 35px;
+    -fx-padding: 10;
+    -fx-fill: #FFFFFF;
+    -fx-font-weight:bold;
+
+}
+
+
+.bgleft {
+	-fx-background-color: linear-gradient(to bottom, #00010b 0%, #24174c 100%);
+}
+
+.bgright {
+	-fx-effect: innershadow(gaussian  , #C748E5, 2,0.5,1,1,100);
+	-fx-background-color: linear-gradient(to bottom, #253d6d 0%, #23304a 75%);
+	
+}
+
+.grid {
+	-fx-stroke:#C748E5;
+	-fx-opacity:0.50;
+		
+}
+
+.highlight {
+	-fx-fill: #C748E5;
+	-fx-opacity:0.10;
+}
+
+.highlightblock {
+	-fx-effect: innershadow(gaussian  , #C748E5, 100,1,1,1,100);
+	-fx-opacity:0.3;
+	
+}
+
+.gameblock {
+	-fx-effect: innershadow(gaussian  , #C748E5, 100,1,1,1,100);
+}
+
+
+.gameover {
+	-fx-font-size: 72px;
+    -fx-fill: #FFFFFF;
+    -fx-stroke: black;
+}
+
+.score {
+	-fx-font-size: 45px;
+    -fx-fill: #FFFFFF;
+    -fx-stroke: black;
+}
+
+.info {
+	-fx-font-size: 40px;
+    -fx-fill: #FFFFFF;
+    -fx-stroke: black;
+}
+
+.table-view {
+    -fx-base: transparent;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding:0;
+    
+}
+
+
+.label {
+	-fx-font-size: 12px;
+    -fx-text-fill: white;
+}
+
+
+.table-view {
+    -fx-control-inner-background: transparent;
+    -fx-background-color: transparent;
+}
+
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 35;
+    -fx-background-color: transparent;
+}
+
+
+
+.text-field {
+	-fx-font-size: 20px;
+}
+
+.button {
+	
+    -fx-padding: 7 22 7 22;   
+    -fx-border-color: #e2e2e2;
+    
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: #24174c;
+	-fx-font-size: 12px;
+    
+    -fx-text-fill: #d8d8d8;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+
+.button:pressed, .button:default:hover:pressed {
+  -fx-background-color: white;
+  -fx-text-fill: #1d1d1d;
+}
+
+
