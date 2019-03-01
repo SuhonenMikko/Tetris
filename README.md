@@ -9,5 +9,5 @@
 * VÄLILYÖNTI – Tiputa palikka suoraan niin alas kuin mahdollista
 * R – Aloita peli alusta
 
-## Muuta tietoa
+## Muuta tietoa:
 * Pelin piste-ennätykset tallennetaan oletuksena sijaintiin C:/temp/Tetris/
